@@ -107,7 +107,7 @@ while 0 < 6:
 
 del _DEVS
 
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "5108071228").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 
 # For Blacklist Group Support
@@ -581,7 +581,7 @@ with bot:
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/skyslashrobot/Man-Userbot"
                             ),
                         ],
                     ],
@@ -630,7 +630,7 @@ with bot:
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/skyslashrobot/Man-Userbot"
                             ),
                         ],
                     ],
